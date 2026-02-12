@@ -1,0 +1,15 @@
+/* 전역 리셋 */
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body { margin: 0; background: #F8FAFC; }
+
+/* 👉 Vite 템플릿이 넣어둔 고정폭을 완전 해제 */
+#root {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 선택: 스크롤바 보정(원하면) */
+/* ::-webkit-scrollbar { height: 10px; width: 10px; } */

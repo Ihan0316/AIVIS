@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Flask
+instance/
+.webassets-cache
+
+# Environment
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build
+frontend/dist/
+frontend/build/
+
+# Data
+data/*.json
+!data/.gitkeep
+images/*
+!images/.gitkeep
+uploads/*
+!uploads/.gitkeep
+face_encodings/*
+!face_encodings/.gitkeep
+
+# SSL Certificates
+*.pem
+*.key
+!create_cert.py
+
+# Logs
+*.log
+logs/

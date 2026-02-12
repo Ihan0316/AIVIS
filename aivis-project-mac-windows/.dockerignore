@@ -1,0 +1,60 @@
+# Python 가상 환경 폴더 무시
+venv/
+env/
+ENV/
+
+# Python 캐시 파일 무시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.py[cod]
+*$py.class
+
+# 기타 개발 도구 폴더 무시
+.git/
+.vscode/
+.DS_Store
+.idea/
+
+# 클라이언트 및 테스트 파일 제외 (서버만 필요)
+client.py
+main.py
+build.log
+build-amd64-only.sh
+check_syntax.sh
+.pre-commit-hook
+
+# 로그 파일 제외
+*.log
+logs/
+src/violations/
+
+# 빌드 아티팩트 제외
+*.so
+*.dll
+*.dylib
+
+# 문서 파일 제외 (대시보드 HTML은 예외)
+*.md
+*.html
+!AIVIS_Dashboard.html
+!KUBESPHERE_DEPLOY.md
+
+# 데이터 파일 (이미지나 기타 불필요한 파일)
+insightface/data/images/
+*.jpg
+*.png
+*.jpeg
+*.gif
+
+# 백업 및 임시 폴더
+*원본/
+*backup/
+*temp/
+
+# Kubernetes 설정 파일 (배포 시 별도 관리)
+k8s/
+
+!.dockerignore

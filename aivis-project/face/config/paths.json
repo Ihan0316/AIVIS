@@ -1,0 +1,7 @@
+{
+    "images": "data/images",
+    "embeddings": "data/embeddings",
+    "new_faces": "data/new_faces",
+    "models": "models",
+    "logs": "logs"
+}

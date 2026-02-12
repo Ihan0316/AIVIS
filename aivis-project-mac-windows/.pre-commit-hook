@@ -1,0 +1,14 @@
+#!/bin/bash
+# Git pre-commit hook: 커밋 전 구문 검사 수행
+
+echo "🔍 커밋 전 구문 검사 수행..."
+
+# check_syntax.sh 실행
+if ./check_syntax.sh; then
+    echo "✅ 구문 검사 통과 - 커밋 진행"
+    exit 0
+else
+    echo "❌ 구문 오류 발견 - 커밋 중단"
+    exit 1
+fi
+
